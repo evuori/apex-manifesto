@@ -57,7 +57,7 @@ If you have a 40-person engineering org with high turnover, Agile is probably mo
 
 **If you are adopting APEX:**
 
-- Replace your story template with the [work-item-template.md](work-item-template.md)
+- Replace your story template with the [work-item-template.md](../templates/work-item-template.md)
 - Do not estimate story points
 - Make owner assignment non-negotiable (do not create work without an owner)
 - Replace "acceptance criteria" with one "done condition" statement
@@ -176,7 +176,7 @@ If you are moving from Agile to APEX:
 - Drastically shrink (or eliminate) sprint retrospectives
 
 **Week 5+: Optimize**
-- Use the [health-check.md](health-check.md) to identify where you have drifted or where process is still creating overhead
+- Use the [health-check.md](../templates/health-check.md) to identify where you have drifted or where process is still creating overhead
 - Make targeted changes based on what you find
 
 ---

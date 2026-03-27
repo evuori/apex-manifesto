@@ -36,7 +36,7 @@ Stop having team members without explicit responsibility. In a meeting with your
 
 ### 2. Fill Out a Project Manifesto
 
-Take the [project-manifesto.md](project-manifesto.md) template and complete it for each significant initiative currently in flight. You do not need to do this for every task — only for projects large enough to justify documentation. If something fits in a couple of paragraphs, that's probably too small to document this way.
+Take the [project-manifesto.md](../templates/project-manifesto.md) template and complete it for each significant initiative currently in flight. You do not need to do this for every task — only for projects large enough to justify documentation. If something fits in a couple of paragraphs, that's probably too small to document this way.
 
 **In a meeting, collectively:**
 - **Define your user:** Not a job title. The actual person. What does their day look like? What are they trying to accomplish?
