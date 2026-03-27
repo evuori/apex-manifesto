@@ -23,15 +23,31 @@ It is built on the belief that in the AI era, competitive advantage belongs to s
 
 This project contains the complete APEX framework, documentation, and supporting tools:
 
-### Core Manifesto
-- **[apex-manifesto.md](apex-manifesto.md)** — The full manifesto. Detailed exploration of the four principles, the philosophy behind them, and how APEX thinks about AI tools. *Start here if you want the complete picture.*
+### `/core` — The Methodology
 
-- **[apex-manifesto-summary.md](apex-manifesto-summary.md)** — The condensed version. Principles, values, and who APEX is for in one page. *Start here if you want to understand quickly.*
+- **[core/apex-manifesto.md](core/apex-manifesto.md)** — The full manifesto. Detailed exploration of the four principles, the philosophy behind them, and how APEX thinks about AI tools. *Start here if you want the complete picture.*
 
-### Supporting Resources
-- **[way-we-work.md](way-we-work.md)** — How APEX operates in practice. Six core principles covering ownership, simplicity, understanding users, ruthless prioritization, fast feedback, and finishing what you start. Includes explicit guidance on using AI tools responsibly.
+- **[core/apex-manifesto-summary.md](core/apex-manifesto-summary.md)** — The condensed version. Principles, values, and who APEX is for in one page. *Start here if you want to understand quickly.*
 
-- **[project-manifesto.md](project-manifesto.md)** — A template for project kickoff. Document user understanding, core requirements, constraints, and shared agreements before work begins. *Use this to start a new project.*
+- **[core/way-we-work.md](core/way-we-work.md)** — How APEX operates in practice. Six core principles covering ownership, simplicity, understanding users, ruthless prioritization, fast feedback, and finishing what you start. Includes explicit guidance on using AI tools responsibly.
+
+### `/guides` — Getting Started and Transition
+
+- **[guides/getting-started.md](guides/getting-started.md)** — A week-zero playbook for adopting APEX. What to stop immediately, what to set up first, what conversations to have, and how to know it's working.
+
+- **[guides/ai-engagement.md](guides/ai-engagement.md)** — Practical guidance on using AI tools effectively within APEX. When to use AI, how to structure that use, patterns for common tasks, and anti-patterns to avoid.
+
+- **[guides/apex-vs-agile.md](guides/apex-vs-agile.md)** — A direct comparison for teams transitioning from Agile/Scrum. What replaces sprints, standups, story points, and other ceremonies in APEX.
+
+### `/templates` — Ready-to-Use Tools
+
+- **[templates/project-manifesto.md](templates/project-manifesto.md)** — A template for project kickoff. Document user understanding, core requirements, constraints, and shared agreements before work begins.
+
+- **[templates/decision-log.md](templates/decision-log.md)** — Track significant decisions made during delivery with clear ownership, alternatives considered, and reasoning.
+
+- **[templates/work-item-template.md](templates/work-item-template.md)** — Minimal format for work items (tickets, tasks, issues). Owner, problem, scope, done condition, dependencies — nothing more.
+
+- **[templates/health-check.md](templates/health-check.md)** — A diagnostic checklist to detect where your team has drifted from APEX principles. 20 questions organized by principle, with interpretation guidance.
 
 ---
 
@@ -85,17 +101,26 @@ Most development methodologies accumulate process over time. Each addition feels
 ## Getting Started
 
 **If you're considering APEX:**
-1. Read [apex-manifesto-summary.md](apex-manifesto-summary.md) (5 min)
-2. Read [apex-manifesto.md](apex-manifesto.md) (15 min)
-3. See how it works in practice in [way-we-work.md](way-we-work.md)
+1. Read [core/apex-manifesto-summary.md](core/apex-manifesto-summary.md) (5 min)
+2. Read [core/apex-manifesto.md](core/apex-manifesto.md) (15 min)
+3. See how it works in practice in [core/way-we-work.md](core/way-we-work.md)
+
+**If you're adopting APEX:**
+1. Read [guides/getting-started.md](guides/getting-started.md) for a week-zero playbook
+2. Understand the transition from your current methodology with [guides/apex-vs-agile.md](guides/apex-vs-agile.md)
+3. Use [templates/project-manifesto.md](templates/project-manifesto.md) for your first project kickoff
 
 **If you're starting a project with APEX:**
-1. Understand the four principles
-2. Use the [project-manifesto.md](project-manifesto.md) template at kickoff
+1. Understand the four principles from the core manifesto
+2. Use the [templates/project-manifesto.md](templates/project-manifesto.md) template at kickoff
 3. Document your user, core requirements, constraints, and agreements in writing before work begins
+4. Reference [templates/decision-log.md](templates/decision-log.md) during delivery to track significant decisions
 
 **If you're evaluating for your team:**
 Read "Who APEX Is For" above and the manifesto sections on what APEX is and is not. APEX is not for every organization—it works best for teams where expertise is real, accountability is necessary, and the competitive advantage comes from speed and precision, not process compliance.
+
+**To maintain APEX discipline:**
+Run the [templates/health-check.md](templates/health-check.md) quarterly to detect drift and realign with principles.
 
 ---
 
