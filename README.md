@@ -1,4 +1,4 @@
-# APEX: A Software Development Methodology for the AI Era
+# APEX: A Modern Software Development Methodology
 
 APEX is a methodology for teams that are done pretending process is the same as progress.
 
