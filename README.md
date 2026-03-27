@@ -31,9 +31,13 @@ This project contains the complete APEX framework, documentation, and supporting
 
 - **[core/way-we-work.md](core/way-we-work.md)** — How APEX operates in practice. Six core principles covering ownership, simplicity, understanding users, ruthless prioritization, fast feedback, and finishing what you start. Includes explicit guidance on using AI tools responsibly.
 
-### `/guides` — Getting Started and Transition
+### `/guides` — Getting Started and Development
 
 - **[guides/getting-started.md](guides/getting-started.md)** — A week-zero playbook for adopting APEX. What to stop immediately, what to set up first, what conversations to have, and how to know it's working.
+
+- **[guides/spec-driven-development.md](guides/spec-driven-development.md)** — How to use SpecDriven development in the AI era. Why precise specifications matter, how to write them, and the spec→implement→validate workflow. *Essential for AI-assisted development.*
+
+- **[guides/project-structure.md](guides/project-structure.md)** — How to organize an APEX project. Where specs live, how to connect them to code, examples for different project types (CLI, API, library, web app), and how to use IMPLEMENTATION.md to track progress.
 
 - **[guides/ai-engagement.md](guides/ai-engagement.md)** — Practical guidance on using AI tools effectively within APEX. When to use AI, how to structure that use, patterns for common tasks, and anti-patterns to avoid.
 
@@ -48,6 +52,10 @@ This project contains the complete APEX framework, documentation, and supporting
 - **[templates/work-item-template.md](templates/work-item-template.md)** — Minimal format for work items (tickets, tasks, issues). Owner, problem, scope, done condition, dependencies — nothing more.
 
 - **[templates/health-check.md](templates/health-check.md)** — A diagnostic checklist to detect where your team has drifted from APEX principles. 20 questions organized by principle, with interpretation guidance.
+
+### `/examples` — Worked Examples
+
+- **[examples/cli-tool-example/](examples/cli-tool-example/)** — A complete, real-world example of a small APEX project using SpecDriven development. Shows project manifesto, feature specifications, decision log, code, and current implementation status. Study this to understand how all the pieces fit together. *Start here to see APEX in action.*
 
 ---
 
