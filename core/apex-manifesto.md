@@ -139,5 +139,13 @@ It is particularly suited to:
 
 ---
 
+## APEX as a Deployable System
+
+This manifesto describes what APEX believes and why. The `/guides` and `/templates` directories contain the operational layer — how to adopt APEX, how to structure projects, how to track progress without a separate tool, and how to give AI tools the full context they need to be genuinely useful rather than shallowly capable.
+
+APEX is not only a philosophy. It is a system teams can pick up and run.
+
+---
+
 *Author: Erno Vuori <erno.vuori@gmail.com>*
 *Repository: https://github.com/evuori/apex-manifesto*

@@ -39,6 +39,10 @@ This project contains the complete APEX framework, documentation, and supporting
 
 - **[guides/project-structure.md](guides/project-structure.md)** — How to organize an APEX project. Where specs live, how to connect them to code, examples for different project types (CLI, API, library, web app), and how to use IMPLEMENTATION.md to track progress.
 
+- **[guides/repo-as-os.md](guides/repo-as-os.md)** — The repository as the team's operating system. Why all artifacts — design rationale, research, planning, decisions — live in the repo alongside code, and why this matters specifically in the AI era. Extends spec-driven development to everything that informs the work.
+
+- **[guides/git-native-tracking.md](guides/git-native-tracking.md)** — How APEX teams track progress without a separate tool. The PR as the kanban card, branch naming conventions, WIP limits, multi-team coordination through shared milestones, and automated status reports generated from git activity.
+
 - **[guides/ai-engagement.md](guides/ai-engagement.md)** — Practical guidance on using AI tools effectively within APEX. When to use AI, how to structure that use, patterns for common tasks, and anti-patterns to avoid.
 
 - **[guides/apex-vs-agile.md](guides/apex-vs-agile.md)** — A direct comparison for teams transitioning from Agile/Scrum. What replaces sprints, standups, story points, and other ceremonies in APEX.
@@ -50,6 +54,8 @@ This project contains the complete APEX framework, documentation, and supporting
 - **[templates/decision-log.md](templates/decision-log.md)** — Track significant decisions made during delivery with clear ownership, alternatives considered, and reasoning.
 
 - **[templates/work-item-template.md](templates/work-item-template.md)** — Minimal format for work items (tickets, tasks, issues). Owner, problem, scope, done condition, dependencies — nothing more.
+
+- **[templates/design-brief.md](templates/design-brief.md)** — Template for design and planning artifacts that live in the repo. Captures the *why* behind a design — constraints, alternatives considered, decisions made — making it PR-reviewable and readable by AI tools with full context.
 
 - **[templates/health-check.md](templates/health-check.md)** — A diagnostic checklist to detect where your team has drifted from APEX principles. 20 questions organized by principle, with interpretation guidance.
 
@@ -117,12 +123,16 @@ Most development methodologies accumulate process over time. Each addition feels
 1. Read [guides/getting-started.md](guides/getting-started.md) for a week-zero playbook
 2. Understand the transition from your current methodology with [guides/apex-vs-agile.md](guides/apex-vs-agile.md)
 3. Use [templates/project-manifesto.md](templates/project-manifesto.md) for your first project kickoff
+4. Set up your repo structure using [guides/repo-as-os.md](guides/repo-as-os.md) so everything that informs the work lives in one place
+5. Replace your tracking tool with git-native tracking — see [guides/git-native-tracking.md](guides/git-native-tracking.md)
 
 **If you're starting a project with APEX:**
 1. Understand the four principles from the core manifesto
 2. Use the [templates/project-manifesto.md](templates/project-manifesto.md) template at kickoff
 3. Document your user, core requirements, constraints, and agreements in writing before work begins
-4. Reference [templates/decision-log.md](templates/decision-log.md) during delivery to track significant decisions
+4. Set up the repo structure from [guides/repo-as-os.md](guides/repo-as-os.md) — specs, design briefs, decisions, and research all in the repo
+5. Reference [templates/decision-log.md](templates/decision-log.md) during delivery to track significant decisions
+6. Use [guides/git-native-tracking.md](guides/git-native-tracking.md) for progress tracking without a separate tool
 
 **If you're evaluating for your team:**
 Read "Who APEX Is For" above and the manifesto sections on what APEX is and is not. APEX is not for every organization—it works best for teams where expertise is real, accountability is necessary, and the competitive advantage comes from speed and precision, not process compliance.

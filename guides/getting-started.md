@@ -50,7 +50,9 @@ Take the [project-manifesto.md](../templates/project-manifesto.md) template and 
 - Takes an hour. It should take an hour. If it takes a day, you are not yet ready to start.
 
 **What happens to it:**
-The project manifesto lives in your repo or shared drive. The team reads it before asking questions about scope. It changes only when scope actually changes. Update the change log when you do.
+The project manifesto lives in your repo under `docs/project-manifesto.md`. Not in a shared drive, not in Notion — in the repo, where it is version-controlled, PR-reviewable, and readable by AI tools alongside the code. The team reads it before asking questions about scope. It changes only when scope actually changes. Update the change log when you do.
+
+See [guides/repo-as-os.md](repo-as-os.md) for why everything that informs the work lives in the repo.
 
 ---
 
@@ -86,6 +88,19 @@ Your team needs to understand what ownership means under APEX, because it is dif
 - Discomfort with decisiveness ("but what if we get it wrong?") — normalize being wrong and owning it as a success, not a failure
 - Fear of isolation ("but I can't decide this alone") — reinforce that they are not alone in gathering input, only alone in making the call
 - Confusion about who the owner is of shared systems — clarify: one person owns each system. When two systems interact, there is a protocol for how the owners resolve disagreements.
+
+---
+
+### 5. Set Up Git-Native Tracking
+
+Cancel the project board setup. You do not need a separate tracking tool. Before the first PR is opened:
+
+- Agree on outcome slugs for your current work cycle (e.g., `auth`, `reporting`, `onboarding`) — these become your branch prefixes and milestone names
+- Add the standard label set to your GitHub repo (`status: in-progress`, `status: blocked`, `status: in-review`, plus type and outcome labels)
+- Create one GitHub Milestone per shared outcome
+- Define WIP limits per team and write them in `IMPLEMENTATION.md`
+
+From that point, tracking is automatic. PRs opened against milestones, labeled by status, with one named owner — that is the board. See [guides/git-native-tracking.md](git-native-tracking.md) for the full setup.
 
 ---
 
